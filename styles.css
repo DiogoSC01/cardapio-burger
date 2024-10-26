@@ -4,19 +4,11 @@
     box-sizing: border-box;
 }
  .logo {
-    width: 150px;
+    width: 190px;
     position: absolute;
     top: 20px;
-    left: 30%;
+    left: 27%;
  }
-/* header {
- color: #ffffff;
- position: absolute;
- top: 20px;
- right: 16%;
- text-shadow:  0.1em 0.1em #7e7979;
- 
-} */
 
 .caixa-texto {
     color: white;
@@ -57,7 +49,7 @@ video {
     color: white;
     background-color: #c51111;
     border-radius: 40px;
-    border: none;
+    /* border: none; */
     width: 200px;
     height: 50px;
     cursor: pointer;
@@ -67,9 +59,14 @@ video {
     position: absolute;
     bottom: 100px;
     left: 25%;
-    
-    
+      
 }
+
+.botao-titulo:hover {
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+ }
+
 
 .logo-whats {
     width: 50px;
@@ -77,3 +74,171 @@ video {
     right: 20px;
     bottom: 20px;
 }
+
+            /* PAGINA DO CARDAPIO */
+
+.body-cardapio {
+    background-color: black;
+}
+
+
+.cabeçalho {
+    background-color: rgb(24,25,24);
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;
+    
+} 
+
+.logo-empresa{
+ width: 150px;
+ margin-left: 8px;   
+}
+
+.link-cabeçalho1 {
+    color: white;
+}
+
+.link-cabeçalho2 {
+    color: white;
+}
+
+.logo-carrinho {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-carrinho {
+    background-color: white;
+    position: absolute;
+    top: 42px;
+    right: 16px;
+    padding:7px 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.link-cabeçalho1 {
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 188px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-cabeçalho2
+{
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    top: 90px;
+    left: 174px;
+    cursor: pointer;
+}
+
+.link-cabeçalho1:hover {
+    color: rgb(240, 123, 123);
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+.link-cabeçalho2:hover {
+    color: rgb(240, 123, 123);
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+ /* ICONE ONDE APARECE QUANTIDADE DE PRODUTOS QUE FICA DENTRO DO CARRINHO */
+.qtd-carrinho{
+    align-items: center;
+    background-color: gold !important;
+    border-radius: 50%;
+    color: #3a2101 !important;
+    display: flex;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    top: 32px;
+    transition: background-color .3s ease;
+    width: 30px;
+}
+
+            /*CARDS PARA COLOCAR OS ITENS DO CARDAPIO PARA VENDA */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEIXA O BOTÃO COM ANIMAÇÃO DE GRADIENTE NO FUNDO QUANDO PASSAR O MOUSE POR CIMA OU QUANDO CLICAR NO BOTÃO */
+
+/* .botao-titulo::before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.botao-titulo:active {
+    color: #000
+    
+}
+
+.botao-titulo:active::after {
+    background-color: transparent;
+
+}
+
+.botao-titulo:hover::before {
+    opacity: 1;
+}
+
+.botao-titulo::after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 40px;
+}
+
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+} */
