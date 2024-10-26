@@ -120,7 +120,7 @@ video {
     cursor: pointer;
 }
 
-.link-cabeçalho1 {
+.link-cabecalho1 {
     font-size: 21px;
     font-weight: bold;
     position: absolute;
@@ -130,7 +130,7 @@ video {
     text-decoration: none;
 }
 
-.link-cabeçalho2
+.link-cabecalho2
 {
     font-size: 21px;
     font-weight: bold;
@@ -140,13 +140,13 @@ video {
     cursor: pointer;
 }
 
-.link-cabeçalho1:hover {
+.link-cabecalho1:hover {
     color: rgb(240, 123, 123);
     transition: 0.5s ease-in-out;
     font-size: 20px;
 }
 
-.link-cabeçalho2:hover {
+.link-cabecalho2:hover {
     color: rgb(240, 123, 123);
     transition: 0.5s ease-in-out;
     font-size: 20px;
