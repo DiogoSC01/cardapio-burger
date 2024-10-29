@@ -49,7 +49,7 @@ video {
     color: white;
     background-color: #c51111;
     border-radius: 40px;
-    /* border: none; */
+    border: none;
     width: 200px;
     height: 50px;
     cursor: pointer;
@@ -59,6 +59,7 @@ video {
     position: absolute;
     bottom: 100px;
     left: 25%;
+    box-shadow: 1px solid black
       
 }
 
@@ -85,13 +86,13 @@ video {
 .cabeçalho {
     background-color: rgb(24,25,24);
     width: 100%;
-    height: 150px;
+    height: 50px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;
     
 } 
 
 .logo-empresa{
- width: 150px;
+ width: 60px;
  margin-left: 8px;   
 }
 
@@ -104,7 +105,7 @@ video {
 }
 
 .logo-carrinho {
-    width: 50px;
+    width: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,46 +114,79 @@ video {
 .caixa-carrinho {
     background-color: white;
     position: absolute;
-    top: 42px;
-    right: 16px;
-    padding:7px 9px;
+    top: 8px;
+    right: 65px;
+    padding: 5px 7px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.link-cabeçalho1 {
-    font-size: 21px;
-    font-weight: bold;
+.menu {
+    border: none;
+    background: none;
+    border-top: 3px solid white;
     position: absolute;
-    top: 50px;
-    left: 188px;
+    right: 15px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.menu::before,
+.menu::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin-top: 5px;
+}
+
+
+.mascara-menu {
+    display: none;
+    background-color: rgb(24,25,24);
+    height: 100vh;
+    width: 110px;
+    position:absolute;
+    right: 0px;
+    top: 40px;
+    opacity: 0.7;
+} 
+
+.link-cabeçalho1 {
+    font-size: 18px;
+    position: absolute;
+    top: 63px;
+    right: 24px;
     cursor: pointer;
     text-decoration: none;
+    display: none;
 }
 
 .link-cabeçalho2
 {
-    font-size: 21px;
-    font-weight: bold;
+    font-size: 18px;
     position: absolute;
-    top: 90px;
-    left: 174px;
+    top: 100px;
+    right: 13px;
     cursor: pointer;
+    display: none;
 }
 
-.link-cabeçalho1:hover {
+/* .link-cabeçalho1:hover {
     color: rgb(240, 123, 123);
     transition: 0.5s ease-in-out;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .link-cabeçalho2:hover {
     color: rgb(240, 123, 123);
     transition: 0.5s ease-in-out;
-    font-size: 20px;
-}
+    font-size: 16px;
+} */
 
  /* ICONE ONDE APARECE QUANTIDADE DE PRODUTOS QUE FICA DENTRO DO CARRINHO */
+
 .qtd-carrinho{
     align-items: center;
     background-color: gold !important;
@@ -162,19 +196,63 @@ video {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
-    height: 30px;
+    height: 20px;
     justify-content: center;
     padding: 5px;
     position: absolute;
-    right: 5px;
-    top: 32px;
+    right: 55px;
+    top: 1px;
     transition: background-color .3s ease;
-    width: 30px;
+    width: 20px;
 }
-
             /*CARDS PARA COLOCAR OS ITENS DO CARDAPIO PARA VENDA */
 
+/* .container {
+ display: flex;
+ align-items: center;
+}
+
+.container {
+    
+}
+ .card-1 {
+    
+    width: 180px;
+    height: 320px;
+    background-color:  #352716;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px #0000001a;
+    overflow: hidden;
+ }
+
+ .img-card-1 {
+    width: 190px;
+ }
+
+ .info-card-1 {
+    margin-bottom: 10px;
+    color: #ccc;
+ }
+
+ .info-card-1 h1 {
+    color: gold;
+ }
+
+ .info-card-1 h2 {
+    color: orange;
+ }
+
+ .botao-card-1 {
+    background-color: #ffdb58;
+    padding: 5px 4px;
+    border-radius: 5px;
+    color: #352716;
+    cursor: pointer;
+    
+ } */
+
  
+
 
 
 
